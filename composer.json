@@ -39,6 +39,7 @@
         },
         "hooks": {
             "pre-commit": [
+                "echo 'Foi mas não foi'"
                 "@fun"
             ]
         }
