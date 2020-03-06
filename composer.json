@@ -38,10 +38,7 @@
             ]
         },
         "hooks": {
-            "pre-commit": [
-                "echo 'Foi mas não foi'",
-                "@fun"
-            ]
+            "pre-commit": "@composer run fun"
         }
     },
     "scripts": {
