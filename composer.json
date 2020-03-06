@@ -38,7 +38,7 @@
             ]
         },
         "hooks": {
-            "pre-commit": "@composer run fun"
+            "pre-commit": "bash lv-pre-commit.sh"
         }
     },
     "scripts": {
